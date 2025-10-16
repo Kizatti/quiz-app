@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
   "framework": "create-react-app",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
+        "zeroConfig": true,
+        "packageManager": "npm",
+        "buildCommand": "npm run build",
+        "installCommand": "npm install",
         "env": {
           "NODE_OPTIONS": "--openssl-legacy-provider"
         }
