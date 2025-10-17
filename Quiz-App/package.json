@@ -9,11 +9,11 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
-    "postcss-safe-parser": "4.0.2",
+    
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+  "react-scripts": "5.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -40,14 +40,13 @@
       "last 1 safari version"
     ]
   },
-  "overrides": {
-    "postcss": "7.0.35"
-  },
-  "engines": {
-    "node": "16.x"
-  },
+  "overrides": {},
+  
   "devDependencies": {
-    "cross-env": "^10.1.0"
+    "cross-env": "^10.1.0",
+    "postcss": "^8.4.38",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^7.3.3"
   }
 }
  
