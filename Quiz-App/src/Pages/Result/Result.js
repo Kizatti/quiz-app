@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import { useEffect } from "react";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import "./Result.css";
 
 const Result = ({ name, score }) => {
