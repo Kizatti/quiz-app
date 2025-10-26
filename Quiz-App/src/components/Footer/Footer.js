@@ -8,10 +8,10 @@ const Footer = () => {
     >
       Made with ♥ by{" "}
       <a
-        href="https://www.youtube.com/roadsidecoder"
+        href="https://www.youtube.com/roaoder"
         style={{ cursor: "pointer" }}
       >
-        Adebiyi Kabir 
+        Adebiyi Kabir
       </a>
     </div>
   );
